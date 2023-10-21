@@ -3,6 +3,16 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+/************* App *************/
+
+.app {
+  width: 800px;
+  margin: 25px auto;
+}
+
+
+/************* Badge *************/
+
 .badge {
   font-weight: 500;
   padding: 0.5em 1em;
@@ -43,4 +53,10 @@ body {
 .purple {
   color: #5B21B6;
   background-color: #EDE9FE;
+}
+
+.badges {
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
 }

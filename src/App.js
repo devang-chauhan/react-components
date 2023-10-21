@@ -5,21 +5,21 @@ function App() {
   return (
     <div className="app">
       <div className="badges">
-        <Badge color="red">Badge</Badge>
-        <Badge color="yellow">Badge</Badge>
-        <Badge color="green">Badge</Badge>
-        <Badge color="blue">Badge</Badge>
-        <Badge color="indigo">Badge</Badge>
-        <Badge color="purple">Badge</Badge>
+        <Badge color="red" title="Badge"/>
+        <Badge color="yellow" title="Badge"/>
+        <Badge color="green" title="Badge"/>
+        <Badge color="blue" title="Badge"/>
+        <Badge color="indigo" title="Badge"/>
+        <Badge color="purple" title="Badge"/>
       </div>
 
       <div className="badges">
-        <Badge shape="pill" color="red">Badge</Badge>
-        <Badge shape="pill" color="yellow">Badge</Badge>
-        <Badge shape="pill" color="green">Badge</Badge>
-        <Badge shape="pill" color="blue">Badge</Badge>
-        <Badge shape="pill" color="indigo">Badge</Badge>
-        <Badge shape="pill" color="purple">Badge</Badge>
+        <Badge shape="pill" color="red" title="Badge"/>
+        <Badge shape="pill" color="yellow" title="Badge"/>
+        <Badge shape="pill" color="green" title="Badge"/>
+        <Badge shape="pill" color="blue" title="Badge"/>
+        <Badge shape="pill" color="indigo" title="Badge"/>
+        <Badge shape="pill" color="purple" title="Badge"/>
       </div>
      
     </div>

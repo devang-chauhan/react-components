@@ -1,9 +1,10 @@
 import './App.css';
+import Badge from './Components/Badge';
 
 function App() {
   return (
     <div className="App">
-      <h1>React Components</h1>
+      <Badge shape="pill" color="purple">Badge</Badge>
     </div>
   );
 }

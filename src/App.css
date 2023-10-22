@@ -60,3 +60,119 @@ body {
   gap: 1em;
   margin-top: 1em;
 }
+
+
+/************* Banner *************/
+
+.banners {
+  margin-top: 2em;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.banner p {
+  margin: 0;
+}
+
+.banner>svg {
+  margin-right: 1em;
+  width: 20px;
+  height: 20px;
+
+}
+
+.banner-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-text {
+  font-size: 1em;
+}
+
+.banner-title {
+  font-weight: 600;
+}
+
+.banner-body {
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+/*** Success ***/
+
+.success {
+  background-color: #ECFDF5;
+}
+
+.success-icon {
+  color: #34D399;
+}
+
+.success-title {
+  color: #065F46;
+}
+
+.success-body {
+  color: #047857;
+}
+
+/*** Warning ***/
+
+.warning {
+  background-color: #FFFBEB;
+}
+
+.warning-icon {
+  color: #FBBF24;
+}
+
+.warning-title {
+  color: #92400E;
+}
+
+.warning-body {
+  color: #B45309;
+}
+
+/*** Error ***/
+
+.error {
+  background-color: #FEF2F2;
+}
+
+.error-icon {
+  color: #F87171;
+}
+
+.error-title {
+  color: #92400E;
+}
+
+.error-body {
+  color: #B45309;
+}
+
+/*** info ***/
+
+.info {
+  background-color: #EFF6FF;
+}
+
+.info-icon {
+  color: #60A5FA;
+}
+
+.info-title {
+  color: #1E40AF;
+}
+
+.info-body {
+  color: #1C51B9;
+}

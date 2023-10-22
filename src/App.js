@@ -1,5 +1,6 @@
 import './App.css';
 import Badge from './Components/Badge';
+import Banner from './Components/Banner';
 
 function App() {
   return (
@@ -20,6 +21,13 @@ function App() {
         <Badge shape="pill" color="blue" title="Badge"/>
         <Badge shape="pill" color="indigo" title="Badge"/>
         <Badge shape="pill" color="purple" title="Badge"/>
+      </div>
+
+      <div className="banners">
+        <Banner status="success">
+          <p>Congratulations</p>
+        </Banner>
+
       </div>
      
     </div>
